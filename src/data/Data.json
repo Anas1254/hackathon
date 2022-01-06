@@ -1,0 +1,79 @@
+[
+  {
+    "id": "userName",
+    "label": "User Name",
+    "placeHolder": "Please enter user name",
+    "isRequired": true,
+    "value": "",
+    "type": "text input",
+    "regex": "",
+    "keyboardType": "text",
+    "errorMessage": {
+      "required": "This field is required",
+      "invalid": "Please enter user name with number and alphabate"
+    },
+    "minLength": 0,
+    "maxLength": 0,
+    "icon": "user"
+  },
+  {
+    "id": "email",
+    "label": "Email Address",
+    "isRequired": true,
+    "value": "",
+    "type": "text input",
+    "regex": "",
+    "keyboardType": "email",
+    "errorMessage": {
+      "required": "This field is required",
+      "invalid": "Please enter valid email address"
+    },
+    "minLength": 0,
+    "maxLength": 0,
+    "icon": "email"
+  },
+  {
+    "id": "password",
+    "label": "Password",
+    "isRequired": true,
+    "value": "",
+    "type": "password",
+    "regex": "",
+    "keyboardType": "password",
+    "errorMessage": {
+      "required": "This field is required",
+      "invalid": "Please enter password"
+    },
+    "minLength": 0,
+    "maxLength": 0,
+    "icon": "key"
+  },
+  {
+    "id": "mobile",
+    "label": "mobile Number",
+    "value": "",
+    "type": "text input",
+    "regex": "",
+    "keyboardType": "number",
+    "errorMessage": {
+      "required": "This field is required",
+      "invalid": "Please enter valid mobile number"
+    },
+    "minLength": 10,
+    "maxLength": 10,
+    "icon": "phone"
+  },
+  {
+    "id": "about",
+    "label": "About",
+    "isRequired": false,
+    "value": "",
+    "type": "multiline",
+    "regex": "",
+    "keyboardType": "text",
+    "errorMessage": {},
+    "minLength": 0,
+    "maxLength": 0,
+    "icon": "user"
+  }
+]
